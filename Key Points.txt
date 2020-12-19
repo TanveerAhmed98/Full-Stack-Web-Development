@@ -1,7 +1,16 @@
 **Key Points**
 
-1)
-2)
-3)
-4)
-5)
+>> Three Layers of Full-Stack Development
+   # Presentation Layer
+   # Business Logic Layer
+   # Data Access Layer
+
+** Things to Learn **
+
+   # Bootstrap 4
+   # Javascript ( Angular & React ) 
+   # Hybrid Mobile Frameworks ( Ionic, Cordova, Nativescript, React- Native)
+   # Server-Side Development (Node + Express + MongoDB)
+
+** Bootstrap 4 **
+
