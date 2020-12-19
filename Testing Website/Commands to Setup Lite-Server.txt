@@ -1,0 +1,15 @@
+## Commands to Setup Lite-Server
+
+1) npm init
+
+2) npm install lite-server --save-dev
+
+3) Add scripts in this manner: 
+   "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+
+   Note that second line will already available in package.json file ( For creating package.json file use npm init)
+
+4) npm start
+
