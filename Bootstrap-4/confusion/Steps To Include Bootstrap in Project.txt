@@ -2,7 +2,7 @@
 
 1) npm install
 
-2) node_modules
+2) add node_modules in .gitignore file
 
 3) npm install bootstrap@4.0.0 --save
 
