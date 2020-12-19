@@ -1,9 +1,9 @@
 **Key Points**
 
 >> Three Layers of Full-Stack Development
-   # Presentation Layer
-   # Business Logic Layer
-   # Data Access Layer
+   # Presentation Layer (HTML, CSS, Javascript)
+   # Business Logic Layer ( Node.js)
+   # Data Access Layer ( MongoDB)
 
 ** Things to Learn **
 
@@ -13,4 +13,5 @@
    # Server-Side Development (Node + Express + MongoDB)
 
 ** Bootstrap 4 **
+
 
