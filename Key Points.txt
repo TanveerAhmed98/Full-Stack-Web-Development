@@ -2,16 +2,17 @@
 
 >> Three Layers of Full-Stack Development
    # Presentation Layer (HTML, CSS, Javascript)
-   # Business Logic Layer ( Node.js)
-   # Data Access Layer ( MongoDB)
+   # Business Logic Layer (Node.js)
+   # Data Access Layer (MongoDB)
 
 ** Things to Learn **
 
    # Bootstrap 4
-   # Javascript ( Angular & React ) 
-   # Hybrid Mobile Frameworks ( Ionic, Cordova, Nativescript, React- Native)
+   # Javascript (Angular & React) 
+   # Hybrid Mobile Frameworks (Ionic, Cordova, Nativescript, React- Native)
    # Server-Side Development (Node + Express + MongoDB)
 
 ** Bootstrap 4 **
 
-
+   # Three pillars to create responsive web design (Grid System, Fluid Images, Media Queries).
+   
