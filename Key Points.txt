@@ -14,5 +14,5 @@
 
 ** Bootstrap 4 **
 
-   # Three pillars to create responsive web design (Grid System, Fluid Images, Media Queries).
+   # Three pillars to create responsive web design (Grid System, Fluid Images, Media Queries ).
    
