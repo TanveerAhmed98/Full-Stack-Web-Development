@@ -12,7 +12,5 @@
    # Hybrid Mobile Frameworks (Ionic, Cordova, Nativescript, React- Native)
    # Server-Side Development (Node + Express + MongoDB)
 
-** Bootstrap 4 **
 
-   # Three pillars to create responsive web design (Grid System, Fluid Images, Media Queries ).
    
