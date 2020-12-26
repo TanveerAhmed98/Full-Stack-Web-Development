@@ -1,0 +1,44 @@
+** Commands to Setup Lite-Server **
+
+1) npm init
+
+2) npm install lite-server --save-dev
+
+3) Add scripts in this manner: 
+   "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+
+   Note that second line will already available in package.json file ( For creating package.json file use npm init)
+
+4) npm start
+
+** Steps To Include Bootstrap in Project **
+
+1) npm install
+
+2) npm install bootstrap@4.0.0 --save
+
+3) npm install jquery@3.3.1 popper.js@1.12.9 --save
+
+4)  Add these codes at the start of head tag
+    ## <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <meta http-equiv="x-ua-compatible" content="ie=edge">
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">  ##
+
+5)  Add these codes right before the end of body tag
+    ## <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> ##
+
+** Steps to include font-awesome and Bootstrap Social in Project**
+
+1) npm install font-awesome@4.7.0 --save
+
+2) npm install bootstrap-social@5.1.1 --save
+
+3) Add these codes in a header 
+ 
+  ## <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> ##

@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-   
+<html lang="en">   
 <head>
       <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Restaurant Confusion</title>
-    <link rel="icon" href="1.jpeg" type="image/icon type">
+    <link rel="icon" href="img/logo.png" type="image/icon type">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
      <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
        <span class="navbar-toggler-icon"></span>
        </button>
-      <a class="navbar-brand mr-auto" href="#">Restaurant Confusion</a>
+      <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" alt="image not found" height="40" width="40"></a>
       <div class="collapse navbar-collapse " id="Navbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"> Home</span></a></li>
@@ -37,7 +35,11 @@
                     <h1>Restaurant Confusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-3 align-self-center">
+                <img src="img/logo.png" class="img-fluid" alt="image not found" >
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button type="block-level" class="btn" style="background-color:orange;"><a href="#reservation-form" style="color: black;">Reserve Table</a></button>    
                 </div>
             </div>
         </div>
@@ -49,8 +51,13 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
+                <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="image not found">
+                <div class="media-body">
+                <h2 class="mt-o">Uthappizza<span class="badge badge-danger">Hot</span><span class="badge badge-pill badge-secondary">PKR 99.99</span></h2>
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            </div>
+            </div>
             </div>
         </div>
 
@@ -60,8 +67,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"src="img/buffet.png" alt="image not found"> 
+                <div class="media-body order-sm-first">
+                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just PKR 19.99 per person </p>
+            </div>
+            </div>
             </div>
         </div>
 
@@ -70,9 +82,72 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center " src="img/alberto.png" alt="image not found" style="height: 200px;"> 
+                <div class="media-body">
+                <h2 class="mt-o">Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
                 <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-12 col-sm-8">
+                <div class="card" id="reservation-form">
+                    <h3 class="card-header text-white" id="reservation-form-header">Reserve a Table</h3>
+                    <div class="card-body">
+                       <form>
+                        <div class="form-group row">
+                            <label for="numofguest" class="col-md-2 col-form-label"><strong>Number of Guests</strong></label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>1</b></label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>2</b></label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>3</b></label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>4</b></label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>5</b></label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numofguest" id="numofguest" value="">
+                                <label class="form-check-label"><b>6</b></label>
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="datetime" class="col-12 col-md-2 col-form-label"><b>Date and Time</b></label>
+                        <div class="col-sm-4">
+                        <input type="date" class="form-control" id="datetime" name="datetime" placeholder="Enter Date">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="time" class="form-control" id="datetime" name="datetime" placeholder="Enter Time">
+                        </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                              <button type="submit" class="btn" style="background-color: orange;">
+                               Reserve
+                              </button>
+                            </div>
+                        </div>
+                       </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
             </div>
         </div>
     </div>
@@ -86,7 +161,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
