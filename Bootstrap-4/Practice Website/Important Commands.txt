@@ -42,3 +42,24 @@
  
   ## <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> ##
+
+** Command to install less compiler**
+         
+1) npm install -g less@2.7.2
+
+** Command to compile less code into css file**
+
+2) lessc styles.less styles.css
+
+** Command to install scss compiler**
+
+1) npm install --save-dev node-sass@4.7.2
+
+** now add the below script in package.jason file**
+
+1) "scss": "node-sass -o css/ css/"
+
+** Command to compile scss code into css file**
+
+1)  npm run scss
+
