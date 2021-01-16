@@ -1,0 +1,16 @@
+** Commands to create react app **
+
+1) install create-react-app
+
+2) create-react-app app-name
+
+3) yarn start
+
+** Commands to add bootstrap / reactstrap / react-popper **
+
+1) yarn add bootstrap
+
+2) yarn add reactstrap
+
+3) yarn add react-popper
+
